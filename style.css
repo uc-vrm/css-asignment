@@ -94,6 +94,7 @@
 
 .box-content #text_content {
     resize: none;
+    outline: none;
 }
 
 /* right align buttons*/
