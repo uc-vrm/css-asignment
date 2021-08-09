@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Assignment.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- outer box(main box) -->
+    <div class="outer-box">
+        <div class="header">
+            <span>Custom Shows</span>
+            <!-- header buttons started -->
+            <button class="btn close">&times;</button>
+            <button class="btn help">&#63;</button>
+            <!-- end of header buttons -->
+        </div>
+        <!-- inner box(control box) starts -->
+        <div class="inner-box">
+            <div class="box-content">
+                <p>C<u>u</u>stom shows:</p>
+                <textarea id="text_content" name="text_content"></textarea>
+                <div id="btn-close"><button class="btn-close btn-options"><u>C</u>lose</button></div>
+            </div>
+            <div class="box-options">
+                <!-- option buttons (control buttons) starts -->
+                <div id="parent_new"><button class="btn-options" id="new"><u>N</u>ew...</button></div>
+                <div class="disabled"><button class="btn-options" id="edit" disabled><u>E</u>dit...</button></div>
+                <div class="disabled"><button class="btn-options" id="remove" disabled><u>R</u>emove</button></div>
+                <div class="disabled" id="copy_parent"><button class="btn-options" id="copy" disabled>Cop<u>y</u></button></div>
+                <div class="disabled"><button class="btn-options" id="shaow" disabled><u>S</u>how</button></div>
+                <!-- end of option buttons -->
+            </div>
+        </div>
+        <!-- end of inner box -->
+    </div>
+    <!-- end of outer box -->
+</body>
+</html>

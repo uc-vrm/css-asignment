@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-box {
+    width: 347px;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #0055e5;
+}
+
+/* gradient for header */
+.header {
+    background: rgba(0,67,207,1);
+    background: -moz-linear-gradient(top, rgba(0,67,207,1) 0%, rgba(2,106,254,1) 1%, rgba(0,67,207,1) 14%, rgba(0,85,229,1) 57%, rgba(2,106,254,1) 92%, rgba(0,67,207,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,67,207,1)), color-stop(1%, rgba(2,106,254,1)), color-stop(14%, rgba(0,67,207,1)), color-stop(57%, rgba(0,85,229,1)), color-stop(92%, rgba(2,106,254,1)), color-stop(100%, rgba(0,67,207,1)));
+    background: -webkit-linear-gradient(top, rgba(0,67,207,1) 0%, rgba(2,106,254,1) 1%, rgba(0,67,207,1) 14%, rgba(0,85,229,1) 57%, rgba(2,106,254,1) 92%, rgba(0,67,207,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,67,207,1) 0%, rgba(2,106,254,1) 1%, rgba(0,67,207,1) 14%, rgba(0,85,229,1) 57%, rgba(2,106,254,1) 92%, rgba(0,67,207,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,67,207,1) 0%, rgba(2,106,254,1) 1%, rgba(0,67,207,1) 14%, rgba(0,85,229,1) 57%, rgba(2,106,254,1) 92%, rgba(0,67,207,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,67,207,1) 0%, rgba(2,106,254,1) 1%, rgba(0,67,207,1) 14%, rgba(0,85,229,1) 57%, rgba(2,106,254,1) 92%, rgba(0,67,207,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0043cf', endColorstr='#0043cf', GradientType=0 );
+    height: 26px;
+}
+
+/* text color of header and header buttons*/
+.header,.header .btn {
+    color: white;
+}
+
+/* some padding to header and box-content */
+.header,.box-content {
+    padding: 2px;
+}
+
+/* radius to the borders */
+.box-options div,#btn-close,.btn-options,.header .btn {
+    border-radius: 3px;
+}
+
+.header .btn {
+    height: 21px;
+    width: 21px;
+    font-size: 18px;
+    margin-left: 2px;
+    border: 1px solid white;
+}
+
+.header .close {
+    background: rgba(240,169,148,1);
+    background: -moz-linear-gradient(-45deg, rgba(240,169,148,1) 0%, rgba(231,99,56,1) 38%, rgba(188,77,47,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(240,169,148,1)), color-stop(38%, rgba(231,99,56,1)), color-stop(100%, rgba(188,77,47,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(240,169,148,1) 0%, rgba(231,99,56,1) 38%, rgba(188,77,47,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(240,169,148,1) 0%, rgba(231,99,56,1) 38%, rgba(188,77,47,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(240,169,148,1) 0%, rgba(231,99,56,1) 38%, rgba(188,77,47,1) 100%);
+    background: linear-gradient(135deg, rgba(240,169,148,1) 0%, rgba(231,99,56,1) 38%, rgba(188,77,47,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0a994', endColorstr='#bc4d2f', GradientType=1 );
+}
+
+.header .help {
+    background: rgba(124,160,248,1);
+    background: -moz-linear-gradient(-45deg, rgba(124,160,248,1) 0%, rgba(62,117,245,1) 30%, rgba(44,124,247,1) 68%, rgba(40,95,227,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(124,160,248,1)), color-stop(30%, rgba(62,117,245,1)), color-stop(68%, rgba(44,124,247,1)), color-stop(100%, rgba(40,95,227,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(124,160,248,1) 0%, rgba(62,117,245,1) 30%, rgba(44,124,247,1) 68%, rgba(40,95,227,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(124,160,248,1) 0%, rgba(62,117,245,1) 30%, rgba(44,124,247,1) 68%, rgba(40,95,227,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(124,160,248,1) 0%, rgba(62,117,245,1) 30%, rgba(44,124,247,1) 68%, rgba(40,95,227,1) 100%);
+    background: linear-gradient(135deg, rgba(124,160,248,1) 0%, rgba(62,117,245,1) 30%, rgba(44,124,247,1) 68%, rgba(40,95,227,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ca0f8', endColorstr='#285fe3', GradientType=1 );
+}
+
+.header span,.header .btn{
+    font-weight: bold;
+}
+
+.inner-box > div {
+    display: inline-block;
+    height: 182px;
+}
+
+.inner-box,.btn-options {
+    background-color: #ece9d8;
+}
+
+.box-content {
+    width: 251px;
+}
+
+
+.box-content,.box-options{
+    padding: 7px 7px 4px 4px;
+}
+
+.box-content #text_content {
+    resize: none;
+}
+
+/* right align buttons*/
+#btn-close,.box-options,.header .btn {
+    float: right;
+}
+
+.box-options {
+    width: 90px;
+}
+
+/* padding of outer-box(main box) and to the content buttons */
+.outer-box{
+    padding: 3px;
+}
+
+.box-options div,#btn-close {
+    border: 1px solid #92928e;
+    width: 73px;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+/* color of borders of buttons and textarea */
+.box-options div:first-child,#btn-close,.box-content #text_content {
+    border-color: #406d97;
+}
+
+/* gradient of buttons */
+.box-options #parent_new:hover,.box-options #parent_new:active,#btn-close:active,#btn-close:hover{
+    background: rgba(193,216,243,1);
+    background: -moz-linear-gradient(top, rgba(193,216,243,1) 0%, rgba(115,143,230,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(193,216,243,1)), color-stop(100%, rgba(115,143,230,1)));
+    background: -webkit-linear-gradient(top, rgba(193,216,243,1) 0%, rgba(115,143,230,1) 100%);
+    background: -o-linear-gradient(top, rgba(193,216,243,1) 0%, rgba(115,143,230,1) 100%);
+    background: -ms-linear-gradient(top, rgba(193,216,243,1) 0%, rgba(115,143,230,1) 100%);
+    background: linear-gradient(to bottom, rgba(193,216,243,1) 0%, rgba(115,143,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1d8f3', endColorstr='#738fe6', GradientType=0 );
+}
+
+/* width of text-area and button options*/
+#text_content,.btn-options {
+    width: 100%;
+}
+
+#text_content{
+    height: 121px;
+}
+
+#btn-close:hover .btn-options,.box-options #parent_new:hover .btn-options{
+    border: 1px dotted black;
+}
+
+.disabled button:hover,.disabled button:active,.disabled button:focus,.btn-options{
+    border: 0px;
+    outline: none;
+}
+
+.box-options #copy_parent {
+    margin-bottom: 24px;
+}
