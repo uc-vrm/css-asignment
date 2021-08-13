@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Arial';
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .outer-box {
@@ -78,6 +78,20 @@
     font-weight: bold;
 }
 
+.header span{
+    display: inline-block;
+    padding-top: 4px;
+}
+
+.header span,.outer-box{
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+.inner-box .box-content p{
+    padding-bottom: 2px;
+}
+
 .inner-box > div {
     display: inline-block;
     height: 182px;
@@ -95,9 +109,8 @@
     width: 251px;
 }
 
-
 .box-content,.box-options{
-    padding: 7px 7px 4px 4px;
+    padding: 7px 7px 4px 5px;
 }
 
 .box-content #text_content {
@@ -130,7 +143,7 @@
     border: 1px solid #C9C7BA;
     width: 73px;
     margin-bottom: 9px;
-    padding: 0 1px;
+    padding: 1px;
 }
 
 /* color of borders of buttons and textarea */
